@@ -20,7 +20,26 @@
 							"subdomains": "",
 							"attribution": "",
 							"cocotile": false,
-							"html": "<div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
+							"html": "<div class=\"gsi_layerinfo_title\">データ基準日 - 平成27年1月1日</div><div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
+						}
+					]
+				},
+				{
+					"type": "LayerGroup",
+					"title": "観光情報",
+					"open": false,
+					"toggleall": false,
+					"entries": [
+						{
+							"type": "Layer",
+							"id": "Kankoushisetsu201502",
+							"title": "観光施設",
+							"iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png",
+							"url": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/Kankoushisetsu201502.geojson",
+							"subdomains": "",
+							"attribution": "",
+							"cocotile": false,
+							"html": "<div class=\"gsi_layerinfo_title\">データ基準日 - 平成27年1月1日</div><div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
 						}
 					]
 				},
@@ -39,7 +58,7 @@
 							"subdomains": "",
 							"attribution": "",
 							"cocotile": false,
-							"html": "<div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
+							"html": "<div class=\"gsi_layerinfo_title\">データ基準日 - 平成27年2月1日</div><div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
 						},
 						{
 							"type": "Layer",
@@ -50,7 +69,7 @@
 							"subdomains": "",
 							"attribution": "",
 							"cocotile": false,
-							"html": "<div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
+							"html": "<div class=\"gsi_layerinfo_title\">データ基準日 - 平成27年2月1日</div><div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
 						},
 						{
 							"type": "Layer",
@@ -61,7 +80,7 @@
 							"subdomains": "",
 							"attribution": "",
 							"cocotile": false,
-							"html": "<div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
+							"html": "<div class=\"gsi_layerinfo_title\">データ基準日 - 平成27年2月1日</div><div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
 						},
 						{
 							"type": "Layer",
@@ -72,7 +91,7 @@
 							"subdomains": "",
 							"attribution": "",
 							"cocotile": false,
-							"html": "<div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
+							"html": "<div class=\"gsi_layerinfo_title\">データ基準日 - 平成27年2月1日</div><div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
 						},
 						{
 							"type": "Layer",
@@ -83,7 +102,7 @@
 							"subdomains": "",
 							"attribution": "",
 							"cocotile": false,
-							"html": "<div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
+							"html": "<div class=\"gsi_layerinfo_title\">データ基準日 - 平成27年2月1日</div><div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
 						}
 					]
 				}
