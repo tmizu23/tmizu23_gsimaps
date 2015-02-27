@@ -49,6 +49,17 @@
 					"open": false,
 					"toggleall": false,
 					"entries": [
+　						{
+							"type": "Layer",
+							"id": "AED_Aoba_201502",
+							"title": "病院",
+							"iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/035.png",
+							"url": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/Byouin201502.geojson",
+							"subdomains": "",
+							"attribution": "",
+							"cocotile": false,
+							"html": "<div class=\"gsi_layerinfo_title\">データ基準日 - 平成27年2月1日</div><div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
+						},
 						{
 							"type": "Layer",
 							"id": "AED_Aoba_201502",

@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="_markerType" type="string"></SimpleField>
+	<SimpleField name="_iconUrl" type="string"></SimpleField>
+	<SimpleArrayField name="_iconSize" type="int"></SimpleArrayField>
+	<SimpleArrayField name="_iconAnchor" type="int"></SimpleArrayField>
+	<SimpleField name="郵便番号" type="string"></SimpleField>
+	<SimpleField name="住所" type="string"></SimpleField>
+	<SimpleField name="URL" type="string"></SimpleField>
+	<SimpleField name="コメント" type="string"></SimpleField>
+	<SimpleField name="電話番号" type="string"></SimpleField>
+	<SimpleField name="FAX番号" type="string"></SimpleField>
+	<SimpleField name="EMAIL" type="string"></SimpleField>
+	<SimpleField name="写真" type="string"></SimpleField>
+	<SimpleField name="担当課" type="string"></SimpleField>
+	<SimpleField name="経度" type="float"></SimpleField>
+	<SimpleField name="緯度" type="float"></SimpleField>
+	<SimpleField name="分類" type="string"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<name>仙台市総合観光案内所（仙台駅2F）</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="郵便番号">980-0021</SimpleData>
+		<SimpleData name="住所">仙台市青葉区中央1-1-1 JR仙台駅2F</SimpleData>
+		<SimpleData name="URL">http://www.stcb.or.jp/?page_id=22</SimpleData>
+		<SimpleData name="コメント">バス乗り場や鉄道などのアクセス案内から名物 ･名産品に至るまで、仙台市の観光全般に関わるご紹介をしております。通訳のできるメンバーも随時待機しておりますので外国の方にも安心してご利用いただけます。</SimpleData>
+		<SimpleData name="電話番号">022-222-4069</SimpleData>
+		<SimpleData name="FAX番号">022-222-3269</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.882081</SimpleData>
+		<SimpleData name="緯度">38.260832</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.8820805,38.2608319</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>秋保工芸の里</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="郵便番号">982-0241</SimpleData>
+		<SimpleData name="住所">仙台市太白区秋保町湯元字上原５４</SimpleData>
+		<SimpleData name="URL">http://www.city.sendai.jp/keizai/kankou/kougeinosato/index.html</SimpleData>
+		<SimpleData name="コメント">古くから受け継がれてきた伝統工芸の職人たち、9つの工房が仕事を行い、生活をしています。仙台箪笥、こけし、独楽、埋もれ木細工、染織、木彫など業種はさまざま。職人の技をすぐ近くで見学することができるほか、気に入った伝統工芸品があればそちらを購入・注文することもできます。自然素材と職人の手によって丹精込められて作られた工芸品たちは、使い込めば使い込むほど独特の味わいと愛着が生まれます。あなただけのこだわりの逸品を探しに出掛けてみてください。</SimpleData>
+		<SimpleData name="電話番号">022-398-2673&lt;br&gt;代表連絡先 玩愚庵こけし</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.721036</SimpleData>
+		<SimpleData name="緯度">38.22073</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.7210357,38.22073005</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>作並温泉</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="郵便番号">989-3431</SimpleData>
+		<SimpleData name="住所">仙台市青葉区作並</SimpleData>
+		<SimpleData name="URL">http://www.sakunami-spa.com/</SimpleData>
+		<SimpleData name="コメント">湯は谷底に湧き、元湯と新湯があります。温泉は養老5（721）年、僧行基が東北巡錫のおり発見したと言われ、文治5（1189）年、頼朝の軍勢もここに兵馬を休めたという伝説があります。温泉宿ができたのは、寛政8（1796）年のことで、岩松喜惣治が藩の許可を得て元湯を開きました。新湯は「神の湯」と呼ばれ、安政元年（1854）、僧秀泉が開湯したとされています。今では「美女づくりの湯」として親しまれ、全国各地から観光客が訪れます。</SimpleData>
+		<SimpleData name="電話番号">022-395-2052仙台市宮城地区観光案内所</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.613841</SimpleData>
+		<SimpleData name="緯度">38.331998</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.6138408,38.33199837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>秋保温泉</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="郵便番号">982-0241</SimpleData>
+		<SimpleData name="住所">仙台市太白区秋保町湯元</SimpleData>
+		<SimpleData name="URL">http://akiuonsenkumiai.com/</SimpleData>
+		<SimpleData name="コメント">名取川の上流にあり、「仙台の奥座敷」ともいうべき温泉郷です。欽明天皇御代（531?571年）に開湯されたと言われ、疱瘡を患った天皇がこの湯を都へ取り寄せ、しばらくの間入浴すると跡形もなく治ったという伝説があります。古くは「名取の御湯」と呼ばれ、有馬・道後の湯と並んで「日本三御湯」の一つに称されました。藩政時代には伊達家の入湯場が置かれていました。近くには、磊々峡、秋保工芸の里、天守閣自然公園、秋保森林スポーツ公園などがあります。</SimpleData>
+		<SimpleData name="電話番号">022-398-2323秋保温泉郷観光案内所</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.718998</SimpleData>
+		<SimpleData name="緯度">38.227672</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.7189982,38.22767172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>東北大学植物園</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="郵便番号">980-0862</SimpleData>
+		<SimpleData name="住所">仙台市青葉区川内１２－２</SimpleData>
+		<SimpleData name="URL">http://www.biology.tohoku.ac.jp/garden/</SimpleData>
+		<SimpleData name="コメント">仙台城跡が位置する広瀬川の西方に続く丘陵地一帯で、現在は大部分が国指定天然記念物の植物園となっています。</SimpleData>
+		<SimpleData name="電話番号">022-795-6760</SimpleData>
+		<SimpleData name="FAX番号">022-795-6766</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.851454</SimpleData>
+		<SimpleData name="緯度">38.25597</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.8514539,38.25597023</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>奥新川ライン</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市青葉区新川</SimpleData>
+		<SimpleData name="URL">http://www.sentabi.jp/guidebook/attractions/view/65</SimpleData>
+		<SimpleData name="コメント">仙山線奥新川駅から面白山方面に伸びる深い渓谷沿いのハイキングコースです。</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.587839</SimpleData>
+		<SimpleData name="緯度">38.328261</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.5878393,38.32826068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鎌倉山</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市青葉区作並</SimpleData>
+		<SimpleData name="コメント">国道48号線沿いにある、ドーム型の山です。ある角度から見ると似ていることから、地元の人には「ゴリラ山」と呼ばれて親しまれています。</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.643911</SimpleData>
+		<SimpleData name="緯度">38.318776</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.64391140000001,38.31877581</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鳴合峡谷</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市青葉区芋沢</SimpleData>
+		<SimpleData name="コメント">広瀬川が作並方面から流れ落ち、郷六盆地へ注ぎ込もうとする谷間の静かな谷間です。</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.735934</SimpleData>
+		<SimpleData name="緯度">38.27694</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.7359337,38.27694007</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新川ライン</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市青葉区新川</SimpleData>
+		<SimpleData name="URL">http://www.sentabi.jp/guidebook/attractions/view/65</SimpleData>
+		<SimpleData name="コメント">新川から仙山線奥新川駅までの様々な風景が楽しめるハイキングコースです。</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.60862</SimpleData>
+		<SimpleData name="緯度">38.31954</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.60862,38.31953966</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>蕃山（ばんざん）</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市青葉区茂庭字蕃山</SimpleData>
+		<SimpleData name="URL">http://www.city.sendai.jp/kensetsu/ryokka/midori100/guide/030/030.html</SimpleData>
+		<SimpleData name="コメント">市街地の西部に位置する「蕃山」「西風蕃山」「蛇台蕃山」の三つの峰からなる里山です。いくつかの登山コースがあり、どのコースも登山口から１時間位で頂上へ着くことができます。  また、野鳥や昆虫、ニホンカモシカ、キツネなどの動物が生息する自然の宝庫として知られています。モミ、イヌブナの巨木やアカマツが点在する林の中を歩くと、カタクリの花や新芽で春の訪れを知り、濃い緑陰で暑い夏をひととき忘れ、色づき始める木々の葉で秋の気配を感じ、落葉する木々で冬の訪れを知るなど、四季の移ろいを身近に感られます。</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.791401</SimpleData>
+		<SimpleData name="緯度">38.255504</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.7914007,38.25550439</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鳳鳴四十八滝</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市青葉区作並字棒目木</SimpleData>
+		<SimpleData name="URL">http://www.city.sendai.jp/kensetsu/ryokka/midori100/guide/037/037.html</SimpleData>
+		<SimpleData name="コメント">大小様々な滝が折り重なるように連なる滝で、滝から響く美しい水音が伝説の鳥「鳳凰」の鳴き声に似ていることから名付けられたと言われています。 高台から広瀬川の上流を眺めると、鬱蒼とした樹林の間を階段状のいくつもの滝が白い泡をたてて流れ、その背後には地元の人から「ゴリラ山」として親しまれている「鎌倉山」がそびえています。  緑あふれる森の中にあり、清冽な水が流れる、仙台の隠れた名瀑布です。</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.660696</SimpleData>
+		<SimpleData name="緯度">38.305965</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.66069630000001,38.30596528</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>瑞鳳殿</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="郵便番号">980-0814</SimpleData>
+		<SimpleData name="住所">仙台市青葉区霊屋下２３－２</SimpleData>
+		<SimpleData name="URL">http://www.zuihoden.com</SimpleData>
+		<SimpleData name="コメント">経ケ峯伊達家墓所として、政宗公はじめ二代目忠宗、三代目綱宗の霊屋が置かれています。併設されている資料館で政宗公の遺骨や副葬品の見学ができます。</SimpleData>
+		<SimpleData name="電話番号">022-262-6250</SimpleData>
+		<SimpleData name="FAX番号">022-262-6251</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.866687</SimpleData>
+		<SimpleData name="緯度">38.250495</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.86668710000001,38.25049524</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>広瀬川</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市青葉区、若林区、太白区</SimpleData>
+		<SimpleData name="URL">http://www.hirosegawa-net.com/index.html</SimpleData>
+		<SimpleData name="コメント">広瀬川は、山形県境付近の上流端より名取川との合流点を経て仙台湾に至るまで、全流路・流域が仙台市の行政区域内に完結する一級河川です。百万都市を貫流しながら、市街地の中で眼にすることができる瀬や淵、自然崖等は、多様で豊かな植物や動物の生息を可能とし、大きく蛇行する形状ともあいまって、変化に富む景観が展望できる、他の大都市には見られない特徴を持っております。杜の都・仙台のシンボルとして、古くは伊達政宗が仙台開府の夢を「河水千年」と詠んでから現在に至るまで、永く市民に親しまれています。</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.860924</SimpleData>
+		<SimpleData name="緯度">38.256478</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.8609243,38.25647761</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>泉ケ岳</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市泉区福岡</SimpleData>
+		<SimpleData name="URL">http://www.city.sendai.jp/kensetsu/ryokka/midori100/guide/099/099.html</SimpleData>
+		<SimpleData name="コメント">仙台の北西部にそびえる山で船形連峰の一支脈をなす。市内から一番近い山で、春夏は登山、秋は紅葉、冬はスキーなど四季を通じて市民に親しまれています。</SimpleData>
+		<SimpleData name="電話番号">022-372-3111泉区役所まちづくり推進課</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.708809</SimpleData>
+		<SimpleData name="緯度">38.412285</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.7088091,38.41228457</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>県立自然公園船形連峰　　</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">　</SimpleData>
+		<SimpleData name="URL">http://www.pref.miyagi.jp/soshiki/sizenhogo/funagata.html</SimpleData>
+		<SimpleData name="コメント">宮城・山形にまたがる船形連峰は、主峰船形山（1,500m・別名御所山）を中心に多くの峰々と広い山域を持ち、地形、植生等の変化に富んでいて、両県の県立自然公園に指定されています。</SimpleData>
+		<SimpleData name="電話番号">各登山口がある市町村役場</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.631566</SimpleData>
+		<SimpleData name="緯度">38.450324</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.631566,38.4503244</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>秋保大滝</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市太白区秋保町馬場</SimpleData>
+		<SimpleData name="URL">http://www.city.sendai.jp/kensetsu/ryokka/midori100/guide/077/077.html</SimpleData>
+		<SimpleData name="コメント">秋保大滝は、「日本の滝百選」に選ばれ、国の名勝に指定されています。轟音をたてて流れ落ちる様は豪快な迫力で、「日本三名瀑」のひとつに数えられています。</SimpleData>
+		<SimpleData name="経度">140.603636</SimpleData>
+		<SimpleData name="緯度">38.275195</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.603636,38.27519464</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>姉滝</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市太白区秋保町馬場</SimpleData>
+		<SimpleData name="URL">http://www.pref.miyagi.jp/bunkazai/siteibunkazai/miyagi-no-bunkazai/11TENNEN/kuni/26taki.htm</SimpleData>
+		<SimpleData name="コメント">高さ16メートルの瀑布で、遠くから見ると、水流が途中で妨げられているため、前後左右に二条に分かれ、「綾なす布」といった美しさを誇っていました。甌穴と滝とが結合した珍しいもので、昭和9年に国の天然記念物に指定されましたが、昭和20年に崩壊したため、往時の面影はありません。近くに「妹滝」があり、「姉妹滝」と総称されています。</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.536342</SimpleData>
+		<SimpleData name="緯度">38.271981</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.536342,38.27198051</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>仙台市秋保ビジターセンター</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="郵便番号">982-0244</SimpleData>
+		<SimpleData name="住所">仙台市太白区秋保町馬場字本小屋16-1</SimpleData>
+		<SimpleData name="URL">http://akiusato.jp/visitor/visitor_html/visitortop.html</SimpleData>
+		<SimpleData name="コメント">蔵王国定公園・県立自然公園二口峡谷の動物や植物などの豊かな自然、山と谷のおりなす美しい景観との出会いの場所への玄関口です。  また、季節ごとに自然観察会・バードウォッチング・山から取って来たものを使った工作教室・クロスカントリースキー教室などのイベントも開催しております。</SimpleData>
+		<SimpleData name="電話番号">022-399-2324秋保ビジターセンター</SimpleData>
+		<SimpleData name="FAX番号">022-399-2324秋保ビジターセンター</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.550881</SimpleData>
+		<SimpleData name="緯度">38.272701</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.5508811,38.27270148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>大東岳</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市太白区</SimpleData>
+		<SimpleData name="URL">http://www.sentabi.jp/guidebook/attractions/view/62</SimpleData>
+		<SimpleData name="コメント">標高1365メートルの山頂には火山湖を有する平坦地が広がり、シャクナゲなどの高山植物が美しく咲きます。秋には紅葉も見事です。</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.523777</SimpleData>
+		<SimpleData name="緯度">38.302419</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.52377670000001,38.30241919</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>太白山自然観察の森　　（自然観察センター)</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="郵便番号">982-0251</SimpleData>
+		<SimpleData name="住所">仙台市太白区茂庭字生出森東36-63</SimpleData>
+		<SimpleData name="URL">http://www.sendai-park.or.jp/web/info/taihakusan/index.html</SimpleData>
+		<SimpleData name="コメント">身近な自然の中で市民が積極的に生き物たちとふれあう場として、平成３年に設置。レンジャー（自然解説員）が常駐し、ガイドウォーク（毎日曜）や自然観察会などを開催しています。また、生き物や自然観察に関する質問や相談などにもお答えしています。  野外教育施設：「カタクリの広場」、「蝶の野原」、「ヤマツツジの丘」、「探検の谷」、「ヨシの湿地」、「クワガタの森」、「トンボの沢」、「小鳥の森」、「カモの池」などがあります。</SimpleData>
+		<SimpleData name="電話番号">022-244-6115</SimpleData>
+		<SimpleData name="FAX番号">022-244-6133</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.814442</SimpleData>
+		<SimpleData name="緯度">38.239097</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.8144424,38.23909688</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>磐司岩</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市太白区秋保町馬場</SimpleData>
+		<SimpleData name="URL">http://www.city.sendai.jp/kensetsu/ryokka/midori100/guide/079/079.html</SimpleData>
+		<SimpleData name="コメント">名取川最上流部に切り立つ大岩壁。表磐司とよばれる二口沢北岸では、高さ150mの垂直な岩壁が3km以上連なっています。岩壁植物群落がよく発達し、イワキンバイ、シコタンソウ、イワヒバなど県内では珍しい植物が生育しています。磐司の由来は、山姫と猿王の間に生まれ、マタギの祖と言われる磐司磐三郎という容貌魁偉な狩人兄弟がこの山に住み、山野を駆け抜けて猟をしていたと言う伝説によります。</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.512131</SimpleData>
+		<SimpleData name="緯度">38.275474</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.5121308,38.27547365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>二口渓谷</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市太白区秋保町馬場</SimpleData>
+		<SimpleData name="URL">http://www.city.sendai.jp/kensetsu/ryokka/midori100/guide/079/079.html</SimpleData>
+		<SimpleData name="コメント">約8kmにわたって続く二口渓谷は、心地よいせせらぎを聞きながら森林浴を楽しめます。</SimpleData>
+		<SimpleData name="電話番号">022-399-2324秋保ビジターセンター　</SimpleData>
+		<SimpleData name="FAX番号">022-399-2324秋保ビジターセンター　</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.540586</SimpleData>
+		<SimpleData name="緯度">38.272304</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.54058610000001,38.27230368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>磊々峡</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市太白区秋保町湯元</SimpleData>
+		<SimpleData name="URL">http://www.city.sendai.jp/kensetsu/ryokka/midori100/guide/074/074.html</SimpleData>
+		<SimpleData name="コメント">奇岩が重なってる様から、その名前がつけられたとされる名勝。往復約30分の遊歩道にはあずまややベンチも設置され、散策しながら四季折々の風景を楽しむことができます。</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.729337</SimpleData>
+		<SimpleData name="緯度">38.223947</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.729337,38.22394692</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>秋保・里センター</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="郵便番号">982-0241</SimpleData>
+		<SimpleData name="住所">仙台市太白区秋保町湯元字寺田原４０－７</SimpleData>
+		<SimpleData name="URL">http://akiusato.jp/index.aspx</SimpleData>
+		<SimpleData name="コメント">観光案内所をはじめ、秋保電鉄のジオラマや工芸作品などの展示コーナーのほか、毎週日曜には七宝焼きなどの体験手作り教室も開講しています。また無料のレンタサイクルも利用できます（4月から11月）。</SimpleData>
+		<SimpleData name="電話番号">022-304-9151</SimpleData>
+		<SimpleData name="FAX番号">022-304-9152</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.727002</SimpleData>
+		<SimpleData name="緯度">38.225188</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.72700180000001,38.22518835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>作並湯の駅Lasanta（ラサンタ）</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="郵便番号">989-3431</SimpleData>
+		<SimpleData name="住所">仙台市青葉区作並字元木2-7</SimpleData>
+		<SimpleData name="URL">http://www.sentabi.jp/guidebook/attractions/view/44</SimpleData>
+		<SimpleData name="コメント">作並温泉にある観光交流施設。「ラサンタ」とは、ウイスキー発祥の地・スコットランドの言葉で「温かさ、温（ぬく）もり」を意味します。施設には、展示室・集会室等が整備されており、展示室では、仙台市出身の画家・小野寺純一氏の作品展示などを行っています。</SimpleData>
+		<SimpleData name="電話番号">022-395-4126</SimpleData>
+		<SimpleData name="FAX番号">022-395-4127</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.615952</SimpleData>
+		<SimpleData name="緯度">38.330732</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.615952,38.33073216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>定義如来西方寺</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="郵便番号">989-3213</SimpleData>
+		<SimpleData name="住所">仙台市青葉区大倉字上下1</SimpleData>
+		<SimpleData name="URL">http://www.johgi.or.jp/</SimpleData>
+		<SimpleData name="コメント">一生一代の大願を叶えてくださる如来様として古くから信仰されている平家落人の里です。縁結び・子宝・安産を祈祷される参拝者も多く訪れています。貞能堂、新本堂、五重搭等がある天皇塚(連理の欅)は、縁結びの神木で、玉手箱(展示室)、やすらぎ(茶室300円)なども併設されています。門前町では、定義名物の三角あぶらあげや秘伝の味噌を塗ったやきめしを食べることができます。</SimpleData>
+		<SimpleData name="電話番号">022-393-2011</SimpleData>
+		<SimpleData name="FAX番号">022-393-2013</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.667858</SimpleData>
+		<SimpleData name="緯度">38.365221</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.66785780000001,38.36522052</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>定義交流センター</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="郵便番号">989-3213</SimpleData>
+		<SimpleData name="住所">仙台市青葉区大倉字久保1番地の10</SimpleData>
+		<SimpleData name="コメント">仙台方面から定義橋を渡ってすぐ右手の建物。  バス待合所、公衆トイレ、消防車両などが入った複合施設で、集会所は、発表会、研修会等に利用可能（有料）で、地域から親しまれています。  バス待合室では、常時、定義・大倉の写真展を行っており、写真は公募し寄せられた中から選考し入賞された作品を４ヶ月に一度入れ替えして、展示しています。</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.671574</SimpleData>
+		<SimpleData name="緯度">38.362531</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.67157370000001,38.36253119</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>材木岩</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="住所">仙台市青葉区大倉</SimpleData>
+		<SimpleData name="コメント">定義如来西方寺本堂から北西の十里平方面へ徒歩5分のところに、材木岩があります。&lt;br&gt;『その昔、立てかけていた材木が一夜にして岩になってしまった』という伝説が残されており、一本一本美しく直立して立ち並んだその姿は見る者を圧倒します。</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.663435</SimpleData>
+		<SimpleData name="緯度">38.368846</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.6634354,38.36884586</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>仙台城跡</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_markerType">Icon</SimpleData>
+		<SimpleData name="_iconUrl">http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/002.png</SimpleData>
+		<SimpleData name="_iconSize">(2:20,20)</SimpleData>
+		<SimpleData name="_iconAnchor">(2:10,10)</SimpleData>
+		<SimpleData name="郵便番号">980-0845</SimpleData>
+		<SimpleData name="住所">仙台市青葉区荒巻字青葉無番地ほか</SimpleData>
+		<SimpleData name="URL">http://www.sendaijyo.com/</SimpleData>
+		<SimpleData name="コメント">伊達政宗公が築いた仙台藩62万石の居城跡。政宗公騎馬像が立つ本丸跡からは、仙台市街が望め、晴れた日には遠く太平洋までの大パノラマが開けます。</SimpleData>
+		<SimpleData name="電話番号">022-214-8259</SimpleData>
+		<SimpleData name="担当課">経済局観光交流課</SimpleData>
+		<SimpleData name="経度">140.85618</SimpleData>
+		<SimpleData name="緯度">38.253655</SimpleData>
+		<SimpleData name="分類">観光施設</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.85617980000001,38.25365471</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
