@@ -16,7 +16,7 @@
 							"id": "shiteihinanjyo201502",
 							"title": "指定避難所",
 							"iconUrl": "",
-							"url": "http://tmizu23.github.io/tmizu23_gsimaps/shiteihinanjyo201502.kml",
+							"url": "http://tmizu23.github.io/tmizu23_gsimaps/shiteihinanjyo201502.geojson",
 							"subdomains": "",
 							"attribution": "",
 							"cocotile": false,
