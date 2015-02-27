@@ -49,7 +49,7 @@
 					"open": false,
 					"toggleall": false,
 					"entries": [
-　						{
+						{
 							"type": "Layer",
 							"id": "Byouin201502",
 							"title": "病院",
