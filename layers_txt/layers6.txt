@@ -20,7 +20,7 @@
 							"subdomains": "",
 							"attribution": "",
 							"cocotile": false,
-							"html": "<div class=\"gsi_layerinfo_copy\"><a href="http://www.city.sendai.jp/shisei/1214827_1984.html">仙台市オープンデータ</a></div>"
+							"html": "<div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
 						}
 					]
 				}
