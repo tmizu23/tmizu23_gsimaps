@@ -40,6 +40,12 @@ strong
 	font-size:8pt;
 }
 
+.gsi-objects-pane {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 3;
+}
 .gsi-div-icon
 {
 	white-space:nowrap;
@@ -382,11 +388,13 @@ form {
 	position:absolute;
 	z-index:999999;
 	background:#fff;
+	/*
 	width:100%;
 	height:100%;
+	overflow:auto;
+	*/
 	top:0px;
 	left:0px;
-	overflow:auto;
 }
 
 .gsi_pageprinter .header_container
@@ -1127,6 +1135,15 @@ form {
 	text-align:right;
 	background:url(../image/system/arrow_l.png) no-repeat left 50%;
 }
+.menu_item_frame label .mini_comment {
+	font-size:7.5pt;
+	color: #ccc;
+}
+.menu_item_frame label .mini_comment.landscape {
+	display : block;
+	margin-top:-2px;
+	margin-left:3em;
+}
 
 /* レイヤー一覧
 ---------------------------------------------------------------------- */
@@ -1483,8 +1500,17 @@ form {
 	-webkit-user-select: none;
 }
 
+.jihoku_label
+{
+	color: #FF0000;
+	font-size: 80%;
+	white-space:nowrap;
 
-
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
 
 /* GSI.Dialog 
 ---------------------------------------------------------------------- */
