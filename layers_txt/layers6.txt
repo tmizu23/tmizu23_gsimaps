@@ -51,7 +51,7 @@
 					"entries": [
 　						{
 							"type": "Layer",
-							"id": "AED_Aoba_201502",
+							"id": "Byouin201502",
 							"title": "病院",
 							"iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/035.png",
 							"url": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/Byouin201502.geojson",
