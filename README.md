@@ -9,3 +9,7 @@
 植生図の表示例 
 
 - http://tmizu23.github.io/tmizu23_gsimaps/?ll=38.227393,140.845413&z=11&base=std&ls=vegehill&vs=c1j0l0u0
+
+地理院地図に地図タイルを追加して公開する方法 
+
+- http://d.hatena.ne.jp/tmizu23/20150121
