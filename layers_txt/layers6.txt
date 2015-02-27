@@ -24,7 +24,7 @@
 						},
 						{
 							"type": "Layer",
-							"id": "shiteihinanjyo201502",
+							"id": "Kouikihinanbasho201502",
 							"title": "広域避難場所",
 							"iconUrl": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/kouikihinanjyo.gif",
 							"url": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/Kouikihinanbasho201502.geojson",
@@ -35,7 +35,7 @@
 						},
 						{
 							"type": "Layer",
-							"id": "shiteihinanjyo201502",
+							"id": "Chiikihinanbasho201502",
 							"title": "地域避難場所",
 							"iconUrl": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/tiikihinanjyo.gif",
 							"url": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/Chiikihinanbasho201502.geojson",
@@ -46,7 +46,7 @@
 						},
 						{
 							"type": "Layer",
-							"id": "shiteihinanjyo201502",
+							"id": "Tsunamihinanbiru201502",
 							"title": "津波避難ビル",
 							"iconUrl": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/tunamibuild.gif",
 							"url": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/Tsunamihinanbiru201502.geojson",
@@ -57,7 +57,7 @@
 						},
 						{
 							"type": "Layer",
-							"id": "shiteihinanjyo201502",
+							"id": "Tsunamihinanbasho201502",
 							"title": "津波避難場所",
 							"iconUrl": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/tunamibasho.gif",
 							"url": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/Tsunamihinanbasho201502.geojson",
@@ -117,7 +117,7 @@
 						},
 						{
 							"type": "Layer",
-							"id": "AED_Aoba_201502",
+							"id": "AED_Miyagino_201502",
 							"title": "AED設置施設(宮城野区)",
 							"iconUrl": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/aed.png",
 							"url": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/AED_Miyagino_201502.kml",
@@ -128,7 +128,7 @@
 						},
 						{
 							"type": "Layer",
-							"id": "AED_Aoba_201502",
+							"id": "AED_Wakabayashi_201502",
 							"title": "AED設置施設(若林区)",
 							"iconUrl": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/aed.png",
 							"url": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/AED_Wakabayashi_201502.kml",
@@ -139,7 +139,7 @@
 						},
 						{
 							"type": "Layer",
-							"id": "AED_Aoba_201502",
+							"id": "AED_Taihaku_201502",
 							"title": "AED設置施設(太白区)",
 							"iconUrl": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/aed.png",
 							"url": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/AED_Taihaku_201502.kml",
@@ -150,7 +150,7 @@
 						},
 						{
 							"type": "Layer",
-							"id": "AED_Aoba_201502",
+							"id": "AED_Izumi_201502",
 							"title": "AED設置施設(泉区)",
 							"iconUrl": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/aed.png",
 							"url": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/AED_Izumi_201502.kml",
