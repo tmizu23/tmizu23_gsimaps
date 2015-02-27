@@ -21,6 +21,28 @@
 							"attribution": "",
 							"cocotile": false,
 							"html": "<div class=\"gsi_layerinfo_title\">データ基準日 - 平成27年1月1日</div><div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
+						},
+						{
+							"type": "Layer",
+							"id": "shiteihinanjyo201502",
+							"title": "津波避難ビル",
+							"iconUrl": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/tunamibuild.gif",
+							"url": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/Tsunamihinanbiru201502.geojson",
+							"subdomains": "",
+							"attribution": "",
+							"cocotile": false,
+							"html": "<div class=\"gsi_layerinfo_title\">データ基準日 - 平成27年1月1日</div><div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
+						},
+						{
+							"type": "Layer",
+							"id": "shiteihinanjyo201502",
+							"title": "津波避難場所",
+							"iconUrl": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/tunamibasho.gif",
+							"url": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/Tsunamihinanbasho201502.geojson",
+							"subdomains": "",
+							"attribution": "",
+							"cocotile": false,
+							"html": "<div class=\"gsi_layerinfo_title\">データ基準日 - 平成27年1月1日</div><div class=\"gsi_layerinfo_copy\"><a href=\"http://www.city.sendai.jp/shisei/1214827_1984.html\">仙台市オープンデータ</a></div>"
 						}
 					]
 				},
