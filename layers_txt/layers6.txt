@@ -1,0 +1,32 @@
+{
+	"layers": [
+		{
+			"type": "LayerGroup",
+			"title": "仙台市オープンデータ",
+			"iconUrl": "",
+			"entries": [
+				{
+					"type": "LayerGroup",
+					"title": "防災情報",
+					"open": false,
+					"toggleall": false,
+					"entries": [
+						{
+							"type": "Layer",
+							"id": "shiteihinanjyo201502",
+							"title": "指定避難所",
+							"iconUrl": "",
+							"url": "http://tmizu23.github.io/tmizu23_gsimaps/shiteihinanjyo201502.kml",
+							"subdomains": "",
+							"attribution": "",
+							"cocotile": false,
+							"html": ""
+						}
+					]
+				}
+			],
+			"open": false,
+			"toggleall": false
+		}
+	]
+}
