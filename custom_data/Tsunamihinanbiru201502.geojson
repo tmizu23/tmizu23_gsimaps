@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "_markerType": "Icon","_iconUrl": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/tunamibuild.gif","_iconSize": [20,20],"_iconAnchor": [10,10],"name": "津波避難ビル （キリンビール事務所棟）", "住所": "仙台市宮城野区港2-2-1", "避難場所面積": null, "避難場所の収容可能人員": null, "避難施設の収容可能人員": "40名", "URL": null, "コメント": "津波発生時における緊急一時的な避難場所です。24時間使用可能です。", "電話番号": "022-214-3048（問い合わせ：仙台市減災推進課）", "写真": null, "担当課": "危機管理室減災推進課", "経度": 140.992712, "緯度": 38.266421, "分類": "津波避難ビル" }, "geometry": { "type": "Point", "coordinates": [ 140.9927118, 38.26642135 ] } },
-{ "type": "Feature", "properties": { "_markerType": "Icon","_iconUrl": "http://tmizu23.github.io/tmizu23_gsimaps/custom_data/tunamibuild.gif","_iconSize": [20,20],"_iconAnchor": [10,10],"name": "津波避難ビル （仙台冷蔵倉庫　仙台港第三センター倉庫棟）", "住所": "仙台市宮城野区蒲生字須賀前8", "避難場所面積": null, "避難場所の収容可能人員": null, "避難施設の収容可能人員": "200名", "URL": null, "コメント": "津波発生時における緊急一時的な避難場所です。24時間使用可能です。", "電話番号": "022-214-3048（問い合わせ：仙台市減災推進課）", "写真": null, "担当課": "危機管理室減災推進課", "経度": 140.984965, "緯度": 38.267496, "分類": "津波避難ビル" }, "geometry": { "type": "Point", "coordinates": [ 140.98496460000001, 38.26749571 ] } }
-]
-}

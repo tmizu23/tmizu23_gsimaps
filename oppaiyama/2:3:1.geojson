@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "右おっぱい山",
+        "_markerType": "Icon",
+        "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          40,
+          40
+        ],
+        "_iconAnchor": [
+          20,
+          20
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0957760810852,
+          34.90430491889557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "左おっぱい山",
+        "_markerType": "Icon",
+        "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          40,
+          40
+        ],
+        "_iconAnchor": [
+          20,
+          20
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0441279411316,
+          32.90531662399373
+        ]
+      }
+    }
+  ]
+}
