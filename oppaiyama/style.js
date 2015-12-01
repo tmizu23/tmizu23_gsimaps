@@ -51,6 +51,7 @@ geojsonOptions:
       }
      }
     }
+    window.open("http://www.ecoris.co.jp");
     layer.bindPopup(s);
    }
 }
