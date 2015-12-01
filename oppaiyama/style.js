@@ -51,7 +51,7 @@ geojsonOptions:
       }
      }
     }
-    layer.on.on('click', function(e) {
+    layer.on('click', function(e) {
        alert("OK");
     });
     layer.bindPopup(s);
