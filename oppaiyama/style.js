@@ -45,7 +45,7 @@ geojsonOptions:
     for(name in feature.properties) {
      if(!name.match(/^_/)){
       if(name=="name"){
-       s += "<a style='font-size: 14px;font-weight: bold;color:#000;'>" + feature.properties[name] + "</a><br>";
+       s += "<a href=\'https://qrb5uht5ta.execute-api.ap-northeast-1.amazonaws.com/prod/s3iot2\' style='font-size: 14px;font-weight: bold;color:#000;'>" + feature.properties[name] + "</a><br>";
       }else{
        s += "<a style='font-size: 10px;color:#000;'>" + name + "：" + feature.properties[name] + "</a><br>";
       }

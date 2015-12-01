@@ -1,0 +1,13 @@
+{
+	"layers": [
+				{
+				  "type": "Layer",
+				  "id": "oppaiyama",
+				  "title": "おっぱい山",
+				  "url": "http://tmizu23.github.io/tmizu23_gsimaps/oppaiyama/{z}/{x}/{y}.geojson",
+				  "html": "<a href=''>編集</a>",
+				  "maxZoom": 18,
+				  "maxNativeZoom": 2
+			  }
+			]
+}

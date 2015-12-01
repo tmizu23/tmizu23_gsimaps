@@ -4,15 +4,6 @@
 			"type": "LayerGroup",
 			"title": "エコリス",
 			"entries": [
-			  {
-				  "type": "Layer",
-				  "id": "oppaiyama",
-				  "title": "おっぱい山",
-				  "url": "http://tmizu23.github.io/tmizu23_gsimaps/oppaiyama/{z}/{x}/{y}.geojson",
-				  "html": "<a href='http://tmizu23.github.io/tmizu23_gsimaps/edit/gh-pages/layers_txt/layers5.txt'>編集</a>",
-				  "maxZoom": 18,
-				  "maxNativeZoom": 2
-			  },
 				{
 					"type": "Layer",
 					"id": "vege",

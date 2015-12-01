@@ -16,6 +16,7 @@ var CONFIG = {};
 // 地理院地図用 layersファイル指定。
 // (CONFIG.layers = null;に変更すると、同階層のlayers.txtを読込)
 CONFIG.layers = [
+	'./layers_txt/layers_oppai.txt',
 	'./layers_txt/layers1.txt',
 	'./layers_txt/layers2.txt',
 	'./layers_txt/layers3.txt',
