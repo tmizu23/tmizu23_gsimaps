@@ -56,7 +56,7 @@ geojsonOptions:
            type: "POST",
            url: "https://qrb5uht5ta.execute-api.ap-northeast-1.amazonaws.com/prod/s3iot2",
            data: {
-               "key1": "no"
+               "key1": "oppai"
            },
            success: function(j_data){
 
