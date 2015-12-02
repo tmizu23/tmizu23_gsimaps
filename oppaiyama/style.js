@@ -61,9 +61,7 @@ geojsonOptions:
                "key1": "oppai"
            },
            success: function(j_data){
-
-               s = "OK"
-
+            console.log("OK")
            }
        });
     });
