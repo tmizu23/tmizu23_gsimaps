@@ -55,7 +55,7 @@ geojsonOptions:
       $.ajax({
            type: "POST",
            url: "https://qrb5uht5ta.execute-api.ap-northeast-1.amazonaws.com/prod/s3iot2",
-           crossDomain: true,
+           contentType:'application/json',
            dataType: 'json',
            data: {
                "key1": "oppai"
