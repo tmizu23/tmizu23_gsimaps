@@ -58,14 +58,14 @@ geojsonOptions:
            contentType:'application/json',
            dataType: 'json',
            data: {
-               "key1": "oppai"
+               "key1": feature.properties[name]
            },
-           success: function(j_data){
-            console.log("OK")
+           success: function(ret){
+            layer.bindPopup(ret);
            }
        });
     });
-    layer.bindPopup(s);
+
    }
 }
 }
