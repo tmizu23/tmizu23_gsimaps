@@ -58,7 +58,7 @@ geojsonOptions:
            contentType:'application/json',
            dataType: 'json',
            data: {
-               "key1": feature.properties[name]
+               "key1": "oppai"
            },
            success: function(ret){
             layer.bindPopup(ret);
