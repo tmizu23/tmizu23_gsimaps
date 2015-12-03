@@ -70,7 +70,12 @@ geojsonOptions:
            }
        });
     });
-    //layer.bindPopup(s);
+    layer.on('mouseover', function(e) {
+
+               var pop = layer.bindPopup("yes");
+               pop.openPopup();
+
+    });
    }
 }
 }
