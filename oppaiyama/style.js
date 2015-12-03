@@ -71,9 +71,8 @@ geojsonOptions:
        });
     });
     layer.on('mouseover', function(e) {
-
+               pop.options.icon.options.popupAnchor = [0,20];
                var pop = layer.bindPopup("click me");
-               pop.options.icon.options.popupAnchor = [20,0]
                pop.openPopup();
 
     });
