@@ -65,23 +65,26 @@ geojsonOptions:
            success: function(ret){
 
                console.log(JSON.stringify(ret));
-               layer.bindPopup(JSON.stringify(ret)).openPopup();
+               var popup = e.target.getPopup();
+               pop.setContent(JSON.stringify(ret)).;
+               layer.openPopup();
+               //layer.bindPopup(JSON.stringify(ret)).openPopup();
            }
        });
     });
     layer.on('mouseover', function(e) {
-               if (e.target._popup == undefined) {
-                 var pop = layer.bindPopup("click me");
-                 pop.options.icon.options.popupAnchor = [0,-20];
-               }
-               e.target._popup.openPopup();
+                var popup = e.target.getPopup();
+                pop.setContent("click me");
+                layer.openPopup();
 
 
     });
     layer.on('mouseout', function(e) {
-               e.target.closePopup();
+               layer.closePopup();
 
     });
+    var pop = layer.bindPopup("");
+    pop.options.icon.options.popupAnchor = [0,-20];
    }
 }
 }
