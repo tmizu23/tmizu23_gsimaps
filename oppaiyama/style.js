@@ -51,6 +51,8 @@ geojsonOptions:
       }
      }
     }
+
+
     layer.on('click', function(e) {
       $.ajax({
            //crossDomain: true,
@@ -62,10 +64,12 @@ geojsonOptions:
            //dataType: 'json',
            success: function(ret){
                console.log(JSON.stringify(ret))
+               var popup = L.popup().setContent(JSON.stringify(ret));
+               feature.bindPopup(popup).openPopup();
            }
        });
     });
-    layer.bindPopup(s);
+    //layer.bindPopup(s);
    }
 }
 }
