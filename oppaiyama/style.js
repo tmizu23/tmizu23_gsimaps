@@ -73,6 +73,7 @@ geojsonOptions:
     layer.on('mouseover', function(e) {
 
                var pop = layer.bindPopup("click me");
+               pop.options.icon.options.popupAnchor = [20,0]
                pop.openPopup();
 
     });
