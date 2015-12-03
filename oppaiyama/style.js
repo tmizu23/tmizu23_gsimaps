@@ -63,9 +63,10 @@ geojsonOptions:
            data: JSON.stringify({"key1":"oppai"}),
            //dataType: 'json',
            success: function(ret){
+
                console.log(JSON.stringify(ret));
-               feature._popup.setContent('something else');
-               feature.openPopup();
+               var pop = layer.bindPopup('something else');
+               pop.openPopup();
            }
        });
     });
