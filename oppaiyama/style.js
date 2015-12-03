@@ -50,7 +50,7 @@ geojsonOptions:
        s += "<a style='font-size: 10px;color:#000;'>" + name + "：" + feature.properties[name] + "</a><br>";
       }
      }
-    }
+   }
 
 
     layer.on('click', function(e) {
@@ -63,9 +63,9 @@ geojsonOptions:
            data: JSON.stringify({"key1":"oppai"}),
            //dataType: 'json',
            success: function(ret){
-               console.log(JSON.stringify(ret))
-               var popup = L.popup().setContent(JSON.stringify(ret));
-               feature.properties.t.bindPopup(popup).openPopup();
+               console.log(JSON.stringify(ret));
+               feature._popup.setContent('something else');
+               feature.openPopup();
            }
        });
     });
