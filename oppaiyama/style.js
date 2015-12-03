@@ -69,7 +69,7 @@
           //contentType:'application/json',
           url: "https://qrb5uht5ta.execute-api.ap-northeast-1.amazonaws.com/prod/s3iot2",
           data: JSON.stringify({
-            "key1": feature.properties[name]
+            "key1": feature.properties["name"]
           }),
           //dataType: 'json',
           success: function(ret) {
