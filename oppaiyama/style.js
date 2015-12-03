@@ -72,7 +72,7 @@ geojsonOptions:
     });
     layer.on('mouseover', function(e) {
 
-               var pop = layer.bindPopup("yes");
+               var pop = layer.bindPopup("click me");
                pop.openPopup();
 
     });
