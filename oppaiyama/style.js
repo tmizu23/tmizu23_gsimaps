@@ -53,15 +53,15 @@ geojsonOptions:
     }
     layer.on('click', function(e) {
       $.ajax({
+           //crossDomain: true,
            type: "POST",
+           //cache: false,
+           //contentType:'application/json',
            url: "https://qrb5uht5ta.execute-api.ap-northeast-1.amazonaws.com/prod/s3iot2",
-           contentType:'application/json',
-           dataType: 'json',
-           data: {
-               "key1": "oppai"
-           },
+           data: JSON.stringify({"key1":"oppai"}),
+           //dataType: 'json',
            success: function(ret){
-            console.log(ret)
+               console.log(JSON.stringify(ret))
            }
        });
     });
