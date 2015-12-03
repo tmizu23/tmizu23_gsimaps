@@ -52,8 +52,10 @@ geojsonOptions:
      }
    }
 
+   var pop = layer.bindPopup("loading...");
+   pop.options.icon.options.popupAnchor = [0,-20];
 
-    layer.on('click', function(e) {
+   layer.on('click', function(e) {
       $.ajax({
            //crossDomain: true,
            type: "POST",
@@ -66,25 +68,22 @@ geojsonOptions:
 
                console.log(JSON.stringify(ret));
                var popup = e.target.getPopup();
-               pop.setContent(JSON.stringify(ret)).;
-               layer.openPopup();
+               popup.setContent(JSON.stringify(ret)).;
+               popup.openPopup();
                //layer.bindPopup(JSON.stringify(ret)).openPopup();
            }
        });
     });
+    /*
     layer.on('mouseover', function(e) {
                 var popup = e.target.getPopup();
                 pop.setContent("click me");
                 layer.openPopup();
-
-
     });
     layer.on('mouseout', function(e) {
                layer.closePopup();
 
     });
-    var pop = layer.bindPopup("");
-    pop.options.icon.options.popupAnchor = [0,-20];
-   }
-}
+    */
+  }
 }
