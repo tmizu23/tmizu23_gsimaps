@@ -67,7 +67,7 @@
           type: "POST",
           headers:{
             'x-api-key:ix3Hi2ZoPx9rztjdTSniq4cMgQxHLU5F8RFSeU9u'
-          }
+          },
           //cache: false,
           //contentType:'application/json',
           url: "https://qrb5uht5ta.execute-api.ap-northeast-1.amazonaws.com/prod/s3iot2",
