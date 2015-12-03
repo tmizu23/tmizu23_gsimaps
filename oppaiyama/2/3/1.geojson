@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "右おっぱい山",
+        "name": "right_oppai",
         "_markerType": "Icon",
         "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
         "_iconSize": [
@@ -27,7 +27,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "左おっぱい山",
+        "name": "left_oppai",
         "_markerType": "Icon",
         "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
         "_iconSize": [
