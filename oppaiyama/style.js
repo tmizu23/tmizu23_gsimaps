@@ -65,7 +65,7 @@ geojsonOptions:
            success: function(ret){
                console.log(JSON.stringify(ret))
                var popup = L.popup().setContent(JSON.stringify(ret));
-               feature.bindPopup(popup).openPopup();
+               feature.properties.t.bindPopup(popup).openPopup();
            }
        });
     });
