@@ -65,7 +65,7 @@ geojsonOptions:
            success: function(ret){
 
                console.log(JSON.stringify(ret));
-               var pop = layer.bindPopup('something else');
+               var pop = layer.bindPopup(JSON.stringify(ret));
                pop.openPopup();
            }
        });
