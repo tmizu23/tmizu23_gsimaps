@@ -76,6 +76,10 @@ geojsonOptions:
                pop.openPopup();
 
     });
+    layer.on('mouseout', function(e) {
+               e.target.closePopup();
+
+    });
    }
 }
 }

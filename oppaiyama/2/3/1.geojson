@@ -8,12 +8,12 @@
         "_markerType": "Icon",
         "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
         "_iconSize": [
-          40,
-          40
+          30,
+          30
         ],
         "_iconAnchor": [
-          20,
-          20
+          15,
+          15
         ]
       },
       "geometry": {
@@ -31,12 +31,12 @@
         "_markerType": "Icon",
         "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
         "_iconSize": [
-          40,
-          40
+          30,
+          30
         ],
         "_iconAnchor": [
-          20,
-          20
+          15,
+          15
         ]
       },
       "geometry": {
