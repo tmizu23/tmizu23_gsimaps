@@ -19,11 +19,7 @@
 
   <script type="text/javascript">
     var appId = '152929595065731';
-    var bucket;
     var roleArn = 'arn:aws:iam::399748833865:role/mapIoT';
-
-
-
     AWS.config.region = 'ap-northeast-1';
 
 
@@ -79,7 +75,7 @@
 
       FB.login(function(response) {
 
-        bucket.config.credentials = new AWS.WebIdentityCredentials({
+        AWS.config.credentials = new AWS.WebIdentityCredentials({
 
           ProviderId: 'graph.facebook.com',
 
