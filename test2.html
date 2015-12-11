@@ -28,8 +28,6 @@
 
     var button = document.getElementById('upload-button');
 
-    var results = document.getElementById('results');
-
     button.addEventListener('click', function() {
       console.log(fbUserId);
       $.ajax({
@@ -76,19 +74,13 @@
       FB.login(function(response) {
 
         AWS.config.credentials = new AWS.WebIdentityCredentials({
-
           ProviderId: 'graph.facebook.com',
-
           RoleArn: roleArn,
-
           WebIdentityToken: response.authResponse.accessToken
-
         });
-
+        console.log(AWS.config.credentials.get());
         fbUserId = response.authResponse.userID;
-
         button.style.display = 'block';
-
       });
 
     };
