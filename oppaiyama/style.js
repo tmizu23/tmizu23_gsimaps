@@ -76,7 +76,7 @@
           success: function(ret) {
 
             console.log(JSON.stringify(ret));
-            var pop = layer.bindPopup(JSON.stringify(ret));
+            var pop = layer.bindPopup("ありがとう\n" + ret.count + "人目です");
             pop.openPopup();
           }
         });
