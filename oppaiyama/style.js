@@ -62,6 +62,26 @@
       */
 
       layer.on('click', function(e) {
+        var apigClient = apigClientFactory.newClient({apiKey: 'H6bo2P4RlEaJ2OJkKt7ym5EGaxOnCI5m8NDliiAw'});
+        var params = {param0: '',param1: ''};
+        var body = {JSON.stringify({
+          "key1": feature.properties["name"]
+        })};
+        var additionalParams = {
+          headers: {param0: '',param1: ''},
+          queryParams: {param0: '',param1: ''}
+        };
+        apigClient.oppaiyamaIoTPost({}, body, {})
+        .then(function(result){
+          console.log(JSON.stringify(result));
+          var pop = layer.bindPopup("ありがとう" + result.count + "人目です。");
+          pop.openPopup();
+        }).catch( function(result){
+          // Add error callback code here.
+        });
+
+
+/*
         $.ajax({
           //crossDomain: true,
           type: "POST",
@@ -80,6 +100,7 @@
             pop.openPopup();
           }
         });
+      */
       });
       layer.on('mouseover', function(e) {
         var pop = layer.bindPopup("click me");
