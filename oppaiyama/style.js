@@ -72,14 +72,14 @@
         //var apigClient = apigClientFactory.newClient({apiKey: 'H6bo2P4RlEaJ2OJkKt7ym5EGaxOnCI5m8NDliiAw'});
 
         var params = {param0: '',param1: ''};
-        //var body = {"key1": feature.properties["name"]};
-        body = '';
+        var body = {"key1": feature.properties["name"]};
+        //body = '';
         var additionalParams = {
           headers: {param0: '',param1: ''},
           queryParams: {param0: '',param1: ''}
         };
 
-        apigClient.oppaiyamaIoTGet({},body)
+        apigClient.oppaiyamaIoTPost({},body,{})
         .then(function(result){
           console.log(JSON.stringify(result));
           var pop = layer.bindPopup("ありがとう" + result.data.count + "人目です。");
