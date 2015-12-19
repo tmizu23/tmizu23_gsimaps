@@ -55,7 +55,15 @@
 <script type="text/javascript" src="apigClient.js"></script>
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.2.25.min.js"></script>
 <script type="text/javascript">
-
+AWS.config.region = 'ap-northeast-1'; // Region
+AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+IdentityPoolId: 'ap-northeast-1:d478938c-4d7e-4296-9be7-a1f13e48a289',
+});
+AWS.config.credentials.get(function(err) {
+            if (!err) {
+                console.log("Cognito Identity Id:" + AWS.config.credentials.identityId);
+            }
+})
 </script>
 <noscript>
 
