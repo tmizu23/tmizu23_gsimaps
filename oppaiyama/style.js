@@ -66,8 +66,8 @@
         apigClient = apigClientFactory.newClient({
           accessKey: AWS.config.credentials.accessKeyId,
           secretKey: AWS.config.credentials.secretAccessKey,
-          //sessionToken: AWS.config.credentials.sesionToken, //OPTIONAL: If you are using temporary credentials you must include the session token
-          //region: 'ap-northeast-1' // OPTIONAL: The region where the API is deployed, by default this parameter is set to us-east-1
+          sessionToken: AWS.config.credentials.sesionToken, //OPTIONAL: If you are using temporary credentials you must include the session token
+          region: 'ap-northeast-1' // OPTIONAL: The region where the API is deployed, by default this parameter is set to us-east-1
         });
         //var apigClient = apigClientFactory.newClient({apiKey: 'H6bo2P4RlEaJ2OJkKt7ym5EGaxOnCI5m8NDliiAw'});
 
@@ -79,9 +79,7 @@
           queryParams: {param0: '',param1: ''}
         };
 
-        apigClient.oppaiyamaIoTPost({}, JSON.stringify({
-          "key1": feature.properties["name"]
-        }))
+        apigClient.oppaiyamaIoTPost({},"")
         .then(function(result){
           console.log(JSON.stringify(result));
           var pop = layer.bindPopup("ありがとう" + result.data.count + "人目です。");
