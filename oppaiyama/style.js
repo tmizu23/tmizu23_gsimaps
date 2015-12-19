@@ -79,17 +79,10 @@
           queryParams: {param0: '',param1: ''}
         };
 
-        apigClient.oppaiyamaIoTOptions({}, body)
+        apigClient.oppaiyamaIoTPost({}, JSON.stringify({
+          "key1": feature.properties["name"]
+        }))
         .then(function(result){
-          apigClient.oppaiyamaIoTPost({}, body)
-          .then(function(result){
-            console.log(JSON.stringify(result));
-            var pop = layer.bindPopup("ありがとう" + result.data.count + "人目です。");
-            pop.openPopup();
-          }).catch( function(result){
-            console.log(JSON.stringify(result));
-          });
-
           console.log(JSON.stringify(result));
           var pop = layer.bindPopup("ありがとう" + result.data.count + "人目です。");
           pop.openPopup();
