@@ -60,7 +60,7 @@
         }
       }
       */
-
+            
       layer.on('click', function(e) {
         apigClient = apigClientFactory.newClient({
           accessKey: AWS.config.credentials.accessKeyId,
