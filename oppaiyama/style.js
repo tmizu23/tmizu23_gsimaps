@@ -62,8 +62,7 @@
       */
 
       layer.on('click', function(e) {
-        
-        console.log(AWS.config.credentials.sesionToken);
+
         apigClient = apigClientFactory.newClient({
           accessKey: AWS.config.credentials.accessKeyId,
           secretKey: AWS.config.credentials.secretAccessKey,
@@ -80,7 +79,7 @@
           queryParams: {param0: '',param1: ''}
         };
 
-        apigClient.oppaiyamaIoTPost({}, body, {})
+        apigClient.oppaiyamaIoTPost({}, body)
         .then(function(result){
           console.log(JSON.stringify(result));
           var pop = layer.bindPopup("ありがとう" + result.data.count + "人目です。");
