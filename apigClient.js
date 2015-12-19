@@ -51,7 +51,7 @@ apigClientFactory.newClient = function (config) {
         config.defaultAcceptType = 'application/json';
     }
 
-    
+
     var endpoint = 'https://oj48nv3zrj.execute-api.ap-northeast-1.amazonaws.com/prod';
     var parser = document.createElement('a');
     parser.href = endpoint;
@@ -88,14 +88,14 @@ apigClientFactory.newClient = function (config) {
     };
 
     var apiGatewayClient = apiGateway.core.apiGatewayClientFactory.newClient(simpleHttpClientConfig, sigV4ClientConfig);
-    
-    
-    
+
+
+
     apigClient.oppaiyamaIoTGet = function (params, body, additionalParams) {
         if(additionalParams === undefined) { additionalParams = {}; }
-        
+
         apiGateway.core.utils.assertParametersDefined(params, [], ['body']);
-        
+
         var oppaiyamaIoTGetRequest = {
             verb: 'get'.toUpperCase(),
             path: pathComponent + uritemplate('/OppaiyamaIoT').expand(apiGateway.core.utils.parseParametersToObject(params, [])),
@@ -103,17 +103,17 @@ apigClientFactory.newClient = function (config) {
             queryParams: apiGateway.core.utils.parseParametersToObject(params, []),
             body: body
         };
-        
-        
+
+
         return apiGatewayClient.makeRequest(oppaiyamaIoTGetRequest, authType, additionalParams, config.apiKey);
     };
-    
-    
+
+
     apigClient.oppaiyamaIoTPost = function (params, body, additionalParams) {
         if(additionalParams === undefined) { additionalParams = {}; }
-        
+
         apiGateway.core.utils.assertParametersDefined(params, [], ['body']);
-        
+
         var oppaiyamaIoTPostRequest = {
             verb: 'post'.toUpperCase(),
             path: pathComponent + uritemplate('/OppaiyamaIoT').expand(apiGateway.core.utils.parseParametersToObject(params, [])),
@@ -122,16 +122,16 @@ apigClientFactory.newClient = function (config) {
             body: body
         };
         
-        
+        console.log(apiGateway.core.utils.parseParametersToObject(params, []))
         return apiGatewayClient.makeRequest(oppaiyamaIoTPostRequest, authType, additionalParams, config.apiKey);
     };
-    
-    
+
+
     apigClient.oppaiyamaIoTOptions = function (params, body, additionalParams) {
         if(additionalParams === undefined) { additionalParams = {}; }
-        
+
         apiGateway.core.utils.assertParametersDefined(params, [], ['body']);
-        
+
         var oppaiyamaIoTOptionsRequest = {
             verb: 'options'.toUpperCase(),
             path: pathComponent + uritemplate('/OppaiyamaIoT').expand(apiGateway.core.utils.parseParametersToObject(params, [])),
@@ -139,11 +139,11 @@ apigClientFactory.newClient = function (config) {
             queryParams: apiGateway.core.utils.parseParametersToObject(params, []),
             body: body
         };
-        
-        
+
+
         return apiGatewayClient.makeRequest(oppaiyamaIoTOptionsRequest, authType, additionalParams, config.apiKey);
     };
-    
+
 
     return apigClient;
 };
