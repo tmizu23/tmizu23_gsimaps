@@ -79,7 +79,7 @@
           queryParams: {param0: '',param1: ''}
         };
 
-        apigClient.oppaiyamaIoTPost({},"")
+        apigClient.oppaiyamaIoTGet({},"")
         .then(function(result){
           console.log(JSON.stringify(result));
           var pop = layer.bindPopup("ありがとう" + result.data.count + "人目です。");
