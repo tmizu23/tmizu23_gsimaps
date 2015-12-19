@@ -62,10 +62,11 @@
       */
 
       layer.on('click', function(e) {
-        AWS.config.region = 'ap-northeast-1'; // Region
-        AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-            IdentityPoolId: 'ap-northeast-1:d478938c-4d7e-4296-9be7-a1f13e48a289',
+        //AWS.config.region = 'ap-northeast-1'; // Region
+        var creds = new AWS.CognitoIdentityCredentials({
+            IdentityPoolId: 'ap-northeast-1:d478938c-4d7e-4296-9be7-a1f13e48a289'
         });
+        AWS.config.update({region: 'ap-northeast-1',credentials: creds});
         console.log(AWS.config.credentials.sesionToken);
         apigClient = apigClientFactory.newClient({
           accessKey: AWS.config.credentials.accessKeyId,
