@@ -67,7 +67,7 @@
 
         var params = {param0: '',param1: ''};
         var body = {"key1": feature.properties["name"]};
-        /*
+
         var additionalParams = {
           headers: {param0: '',param1: ''},
           queryParams: {param0: '',param1: ''}
