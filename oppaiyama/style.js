@@ -62,8 +62,13 @@
       */
 
       layer.on('click', function(e) {
-
-        var apigClient = apigClientFactory.newClient({apiKey: 'H6bo2P4RlEaJ2OJkKt7ym5EGaxOnCI5m8NDliiAw'});
+        apigClient = apigClientFactory.newClient({
+          accessKey: AWS.config.credentials.accessKeyId,
+          secretKey: AWS.config.credentials.secretAccessKey,
+          //sessionToken: AWS.config.credentials.sesionToken, //OPTIONAL: If you are using temporary credentials you must include the session token
+          //region: 'us-east-1' // OPTIONAL: The region where the API is deployed, by default this parameter is set to us-east-1
+        });
+        //var apigClient = apigClientFactory.newClient({apiKey: 'H6bo2P4RlEaJ2OJkKt7ym5EGaxOnCI5m8NDliiAw'});
 
         var params = {param0: '',param1: ''};
         var body = {"key1": feature.properties["name"]};
@@ -79,7 +84,7 @@
           var pop = layer.bindPopup("ありがとう" + result.data.count + "人目です。");
           pop.openPopup();
         }).catch( function(result){
-          // Add error callback code here.
+          console.log(JSON.stringify(result));
         });
 
 
