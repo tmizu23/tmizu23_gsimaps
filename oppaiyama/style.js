@@ -76,12 +76,12 @@
         apigClient.oppaiyamaIoTPost({}, body, {})
         .then(function(result){
           console.log(JSON.stringify(result));
-          var pop = layer.bindPopup("ありがとう" + result.count + "人目です。");
+          var pop = layer.bindPopup("ありがとう" + result.data.count + "人目です。");
           pop.openPopup();
         }).catch( function(result){
           // Add error callback code here.
         });
-       
+
 
 /*
         $.ajax({
