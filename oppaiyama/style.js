@@ -64,9 +64,10 @@
       layer.on('click', function(e) {
 
         var apigClient = apigClientFactory.newClient({apiKey: 'H6bo2P4RlEaJ2OJkKt7ym5EGaxOnCI5m8NDliiAw'});
-        /*
+
         var params = {param0: '',param1: ''};
-        var body = {JSON.stringify({"key1": feature.properties["name"]})};
+        var body = {"key1": feature.properties["name"]};
+        /*
         var additionalParams = {
           headers: {param0: '',param1: ''},
           queryParams: {param0: '',param1: ''}
