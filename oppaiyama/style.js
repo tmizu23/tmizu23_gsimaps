@@ -73,13 +73,13 @@
 
         var params = {param0: '',param1: ''};
         //var body = {"key1": feature.properties["name"]};
-        body = "{}";
+        body = '';
         var additionalParams = {
           headers: {param0: '',param1: ''},
           queryParams: {param0: '',param1: ''}
         };
 
-        apigClient.oppaiyamaIoTPost({},body)
+        apigClient.oppaiyamaIoTGet({},body)
         .then(function(result){
           console.log(JSON.stringify(result));
           var pop = layer.bindPopup("ありがとう" + result.data.count + "人目です。");
