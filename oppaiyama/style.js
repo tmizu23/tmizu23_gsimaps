@@ -72,7 +72,7 @@
           headers: {param0: '',param1: ''},
           queryParams: {param0: '',param1: ''}
         };
-        /*
+
         apigClient.oppaiyamaIoTPost({}, body, {})
         .then(function(result){
           console.log(JSON.stringify(result));
@@ -81,7 +81,7 @@
         }).catch( function(result){
           // Add error callback code here.
         });
-       */
+       
 
 /*
         $.ajax({
