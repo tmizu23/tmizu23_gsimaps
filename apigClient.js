@@ -121,8 +121,8 @@ apigClientFactory.newClient = function (config) {
             queryParams: apiGateway.core.utils.parseParametersToObject(params, []),
             body: body
         };
+
         
-        console.log(apiGateway.core.utils.parseParametersToObject(params, []))
         return apiGatewayClient.makeRequest(oppaiyamaIoTPostRequest, authType, additionalParams, config.apiKey);
     };
 

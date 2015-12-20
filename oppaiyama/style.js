@@ -62,22 +62,16 @@
       */
 
       layer.on('click', function(e) {
-
+        /*
         apigClient = apigClientFactory.newClient({
           accessKey: AWS.config.credentials.accessKeyId,
           secretKey: AWS.config.credentials.secretAccessKey,
           sessionToken: AWS.config.credentials.sesionToken, //OPTIONAL: If you are using temporary credentials you must include the session token
           region: 'ap-northeast-1' // OPTIONAL: The region where the API is deployed, by default this parameter is set to us-east-1
         });
-        //var apigClient = apigClientFactory.newClient({apiKey: 'H6bo2P4RlEaJ2OJkKt7ym5EGaxOnCI5m8NDliiAw'});
-
-        var params = {param0: '',param1: ''};
+        */
+        var apigClient = apigClientFactory.newClient({apiKey: 'H6bo2P4RlEaJ2OJkKt7ym5EGaxOnCI5m8NDliiAw',region: 'ap-northeast-1'});
         var body = {"key1": feature.properties["name"]};
-        //body = '';
-        var additionalParams = {
-          headers: {param0: '',param1: ''},
-          queryParams: {param0: '',param1: ''}
-        };
 
         apigClient.oppaiyamaIoTPost({},body,{})
         .then(function(result){
