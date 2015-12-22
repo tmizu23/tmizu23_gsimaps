@@ -1,6 +1,7 @@
 {
 	"layers": [
 				{
+				  "open": true,
 				  "type": "Layer",
 				  "id": "oppaiyama",
 				  "title": "おっぱい山",
